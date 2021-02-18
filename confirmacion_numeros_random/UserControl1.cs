@@ -75,12 +75,15 @@ namespace confirmacion_numeros_random
             }
             else 
             {
-                if (PropiedadCreada != null && PropiedadCreada != "" )
-                    MessageBox.Show("has fallado");
-                else
+                if (PropiedadCreada != null && PropiedadCreada != "")
                 {
                     MessageBox.Show(PropiedadCreada);
                 }
+                else
+                {                    
+                    MessageBox.Show("has fallado");
+                }
+                
             }
         }
 
