@@ -232,5 +232,8 @@
         private System.Windows.Forms.RadioButton radioButton8;
         private System.Windows.Forms.RadioButton radioButton9;
         private System.Windows.Forms.RadioButton radioButton10;
+
+        [System.ComponentModel.Category("Comportamiento")]
+        public string PropiedadCreada { set; get; }
     }
 }
